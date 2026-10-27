@@ -1,0 +1,19 @@
+# Данные MIMIC-IV и любые производные от них файлы НЕ публикуются (PhysioNet Credentialed Health Data Use Agreement)
+*.csv
+*.csv.gz
+*.parquet
+*.xlsx
+*.pkl
+*.joblib
+*.txt
+!requirements.txt
+*.png
+*.log
+data/
+models/
+results/
+logs/
+run_logs/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
